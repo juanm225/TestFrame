@@ -15,21 +15,21 @@ public class DriverFactory {
 
     public DriverFactory()
     {
-        DriverType drivertype = FIREFOX;
-        String browser = System.getProperty("browser", drivertype.toString()).toUpperCase();
+        DriverType driverType = FIREFOX;
+        String browser = System.getProperty("browser", driverType.toString()).toUpperCase();
         try
         {
-            drivertype = valueOf(browser);
+            driverType = valueOf(browser);
         }
         catch(IllegalArgumentException ignored)
         {
-            System.err.println("Unknow driver expecified, defaulting to '"+drivertype+"'...");
+            System.err.println("Unknow driver expecified, defaulting to '"+driverType+"'...");
         }
         catch(NullPointerException ignored)
         {
-            System.err.println("No driver expecified, defaulting to '"+drivertype+"'...");
+            System.err.println("No driver expecified, defaulting to '"+driverType+"'...");
         }
-        selectedDriverType = drivertype;
+        selectedDriverType = driverType;
     }
 
     public RemoteWebDriver getDriver()
@@ -50,7 +50,7 @@ public class DriverFactory {
         }
     }
 
-    public void instantiateWebDriver(DriverType drivertype)
+    public void instantiateWebDriver(DriverType driverType)
     {
         System.out.println(" ");
         System.out.println("Local Operating system: "+operatingSystem);
@@ -58,6 +58,6 @@ public class DriverFactory {
         System.out.println("Selected Browser: "+selectedDriverType);
         System.out.println(" ");
         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
-        webDriver = drivertype.getWebDriverObject(desiredCapabilities);
+        webDriver = driverType.getWebDriverObject(desiredCapabilities);
     }
 }

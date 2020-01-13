@@ -16,38 +16,29 @@ public class DriverBase {
     private static ThreadLocal<DriverFactory> driverThread;
 
     @BeforeSuite(alwaysRun = true)
-    public static void instantiateDriverObject()
-    {
-        driverThread = new ThreadLocal<DriverFactory>()
-        {
+    public static void instantiateDriverObject() {
+        driverThread = new ThreadLocal<DriverFactory>() {
             @Override
-            protected DriverFactory initialValue()
-            {
+            protected DriverFactory initialValue() {
                 DriverFactory webDriverThread = new DriverFactory();
                 webDriverThreadPool.add(webDriverThread);
                 return webDriverThread;
             }
         };
     }
-    public static RemoteWebDriver getDriver()
-    {
+
+    public static RemoteWebDriver getDriver() {
         return driverThread.get().getDriver();
     }
 
     @AfterMethod(alwaysRun = true)
-    public static void clearCookies()
-    {
-        try {
-            getDriver().manage().deleteAllCookies();}
-        catch(Exception ex) {
-            System.err.println("Unable to delete cookies "+ex);
-        }
+    public static void clearCookies() {
+        getDriver().manage().deleteAllCookies();
     }
+
     @AfterSuite(alwaysRun = true)
-    public static void closeDriverObjects()
-    {
-        for(DriverFactory webDriverThread : webDriverThreadPool)
-        {
+    public static void closeDriverObjects() {
+        for (DriverFactory webDriverThread : webDriverThreadPool) {
             webDriverThread.quitDriver();
         }
     }

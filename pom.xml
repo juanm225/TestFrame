@@ -47,7 +47,7 @@
                 <configuration>
                     <rootStandaloneServerDirectory>${project.basedir}/src/test/resources/selenium_standalone_binaries</rootStandaloneServerDirectory>
                     <downloadedZipFileDirectory>${project.basedir}/src/test/resources/selenium_standalone_zips</downloadedZipFileDirectory>
-                    <customRepositoryMap>${project.basedir}/src/test/resources/RepositoryMap.xml</customRepositoryMap>
+                    <customRepositoryMap>${project.basedir}\src\test\resources\RepositoryMap.xml</customRepositoryMap>
                     <overwriteFilesThatExist>${overwrite.binaries}</overwriteFilesThatExist>
                 </configuration>
                 <executions>
