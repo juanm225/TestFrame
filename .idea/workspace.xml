@@ -4,25 +4,19 @@
     <list default="true" id="ab1b86cb-0114-4bb0-b37e-c75fcf56b741" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lights/dev/Config/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lights/dev/Config/DriverFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/lights/dev/Config/DriverType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lights/dev/Config/DriverType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lights/dev/DriverBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lights/dev/DriverBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/RepositoryMap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/RepositoryMap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/selenium_standalone_zips/IEDriverServer_x64_3.7.0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/selenium_standalone_zips/MicrosoftWebDriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/selenium_standalone_zips/chromedriver_win32.zip" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/selenium_standalone_zips/chromedriver_win32.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/selenium_standalone_zips/geckodriver-v0.19.1-win64.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/selenium_standalone_zips/operadriver_win64.zip" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/selenium_standalone_zips/operadriver_win64.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/selenium_standalone_zips/phantomjs-1.9.8-windows.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/webdriver/binaries/windows/edge/64bit/MicrosoftWebDriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/webdriver/binaries/windows/googlechrome/64bit/chromedriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/webdriver/binaries/windows/internetexplorer/64bit/IEDriverServer.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/webdriver/binaries/windows/marionette/64bit/geckodriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/webdriver/binaries/windows/operachromium/64bit/operadriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/webdriver/binaries/windows/phantomjs/64bit/phantomjs.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RepositoryMap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RepositoryMap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/lights/dev/Config/DriverFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lights/dev/Config/DriverFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/Surefire suite/Surefire test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/Surefire suite/Surefire test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/Surefire suite/Surefire test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/Surefire suite/Surefire test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/TEST-lights.dev.BasicIT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/TEST-lights.dev.BasicIT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/junitreports/TEST-lights.dev.BasicIT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/junitreports/TEST-lights.dev.BasicIT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/lights.dev.BasicIT.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/lights.dev.BasicIT.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mastering-selenium-testng-DEV-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/mastering-selenium-testng-DEV-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/lights/dev/Config/DriverType$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lights/dev/Config/DriverType$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/lights/dev/Config/DriverType$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lights/dev/Config/DriverType$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/lights/dev/Config/DriverType$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lights/dev/Config/DriverType$3.class" afterDir="false" />
@@ -30,20 +24,6 @@
       <change beforePath="$PROJECT_DIR$/target/test-classes/lights/dev/Config/DriverType$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lights/dev/Config/DriverType$5.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/lights/dev/Config/DriverType$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lights/dev/Config/DriverType$6.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/lights/dev/Config/DriverType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lights/dev/Config/DriverType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/lights/dev/DriverBase$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lights/dev/DriverBase$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/lights/dev/DriverBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lights/dev/DriverBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium_standalone_zips/IEDriverServer_x64_3.7.0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium_standalone_zips/MicrosoftWebDriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium_standalone_zips/chromedriver_win32.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium_standalone_zips/chromedriver_win32.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium_standalone_zips/geckodriver-v0.19.1-win64.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium_standalone_zips/operadriver_win64.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium_standalone_zips/operadriver_win64.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium_standalone_zips/phantomjs-1.9.8-windows.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/webdriver/binaries/windows/edge/64bit/MicrosoftWebDriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/webdriver/binaries/windows/googlechrome/64bit/chromedriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/webdriver/binaries/windows/internetexplorer/64bit/IEDriverServer.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/webdriver/binaries/windows/marionette/64bit/geckodriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/webdriver/binaries/windows/operachromium/64bit/operadriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/webdriver/binaries/windows/phantomjs/64bit/phantomjs.exe" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,22 +145,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="437" width="356" height="166" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578688811654" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1578691093649">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1578949927795">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578691093649" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1578691093649">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578949927795" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1578949927795">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578691093649" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1578691093649">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578949927795" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1578949927795">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578691093649" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1578691093649">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578949927795" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1578949927795">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578691093649" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578949927795" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1578922022398">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -189,10 +169,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578689112311" />
-    <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1578926771402">
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1579014497141">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578926771402" />
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579014497141" />
     <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578688951573">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

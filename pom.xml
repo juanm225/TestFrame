@@ -27,8 +27,14 @@
         <threads>1</threads>
         <browser>firefox</browser>
         <overwrite.binaries>false</overwrite.binaries>
+        <headless>true</headless>
     </properties>
-
+<profiles>
+    <profile>
+        <id>selenium</id>
+        <activation>
+            <activeByDefault>true</activeByDefault>
+        </activation>
     <build>
         <plugins>
             <plugin>
@@ -67,6 +73,7 @@
                     <threadCount>${threads}</threadCount>
                     <systemPropertyVariables>
                         <browser>${browser}</browser>
+                        <headless>${headless}</headless>
                         <!--Set properties passed in by the driver binary downloader-->
                         <webdriver.chrome.driver>${webdriver.chrome.driver}</webdriver.chrome.driver>
                         <webdriver.ie.driver>${webdriver.ie.driver}</webdriver.ie.driver>
@@ -107,4 +114,6 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+    </profile>
+</profiles>
 </project>
